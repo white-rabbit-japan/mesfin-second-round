@@ -1,0 +1,9 @@
+{
+  "name": "japanrabbitcom",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}

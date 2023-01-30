@@ -1,0 +1,156 @@
+header:
+  home: 'Home'
+  help: 'Help'
+  cta: 'Sign in'
+
+footer:
+  support: 'Support'
+  company: 'Company'
+  sister: 'Sister Brands'
+  help: 'Help and Contact'
+  fees: 'Service Fees'
+  calculator: 'Shipping Calculator'
+  systemStatus: 'System Status'
+  changelog: 'Changelog'
+  sitemap: 'Sitemap'
+  about: 'About Us'
+  careers: 'Careers'
+  terms: 'Terms and Privacy'
+  siteDescription: 'Japan Rabbit makes buying from Japan hassle-free for thousands of people and businesses worldwide.'
+  copyright: '© {0} Japan Rabbit '
+
+notFound:
+  title: 'Not Found - Japan Rabbit'
+  doesntExist: "Uh oh. That page doesn't exist."
+  goHome: 'Go home'
+
+home:
+  title: 'Proxy-buying from Japan - Japan Rabbit'
+  reasons:
+    title: 'We’ll handle the ordering, payment, pickup, and shipping—so you don’t have to.'
+    preorders:
+      title: 'Pre-orders'
+      desc: 'Reserve items months in advance.'
+    pickup:
+      title: 'In-store pickup'
+      desc: 'Shop physical stores too. Additional fees may apply.'
+    limitedEditions:
+      title: 'Limited editions'
+      desc: 'Buy limited-edition and bonus items.'
+    auctions:
+      title: 'Auction bidding'
+      desc: 'Bid on Yahoo!Auctions.'
+    talkSellers:
+      title: 'Communicate with sellers'
+      desc: 'We can relay messages between you and the seller.'
+    payment:
+      title: 'Cross-border payment'
+      desc: 'We’ll handle payment for you, whether by cash, furikomi, konibini pay, or credit card.'
+    shipping:
+      title: 'Cross-border shipping'
+      desc: 'Ship by Japan Post, FedEx, or DHL.'
+    chat:
+      title: 'Live chat'
+      desc: 'Chat with us! We are here to help.'
+  features:
+    title: 'Get the help you need, every step of the way.'
+    vip:
+      title: 'We treat everyone like a VIP'
+      desc: 'Our experts are here to help by chat or email.'
+    quote:
+      title: 'Get a quote, instantly'
+      desc: 'Add the items you want to buy for an instant quote. It’s so fast and simple.'
+    storage:
+      title: '45-days free storage'
+      desc: 'We’ll keep your packages safe until you are ready to ship.'
+    moneyback:
+      title: '100% money back guarantee'
+      desc: 'We buy your item, or you pay nothing.'
+  why:
+    title: 'Delivering happiness from Japan since 2005'
+    description: 'As pioneers of proxy-buying in Japan, we lead on innovation and user experience. Our customer care wins the highest ratings in the industry.'
+    cta: 'Get Started'
+    note: 'We’ve helped tens of thousands of people in <span class="whitespace-nowrap">140 countries</span> purchase over <span class="whitespace-nowrap">2 billion</span> yen in goods from Japan.'
+  faq:
+    title: 'Frequently Asked Questions'
+    basics: 'The Basics'
+    starting: 'Getting Started'
+    questions:
+      fees:
+        question: 'How much are your service fees?'
+        answer: 'You can get an instant quote which includes our fees by adding a product from any Japanese online store to your cart. Once an item is added you will get a full breakdown of the costs minus international shipping.'
+      preorders:
+        question: 'Can I buy pre-order items?'
+        answer: 'Yes, we can accept requests for pre-order items. You will pay for the item and our fees upfront, then international shipping once the item releases.'
+      shops:
+        question: 'What shops can I buy from? Do you handle Yahoo Auctions?'
+        answer: 'We are able to buy from almost any Japanese store. Including:'
+        items:
+          auction: 'Auction sites—like Yahoo Auctions and Rakuma.'
+          online: 'Online stores—like Amazon Japan, Rakuten, Zozotown and others.'
+          mail: 'Mail-order—via fax, letter, or phone.'
+          store: 'In-store pick-up at physical shops and events.'
+          marketplace: 'Japanese marketplaces—like Mercari, Otamart, and Frill.'
+      value:
+        question: 'Can I adjust the customs value of an order?'
+        answer: 'We declare the custom value of your package as the total cost of its contents, excluding our service fees and domestic shipping costs. Packages shipped are marked as "Merchandise" and cannot be marked as "Gift." You will be responsible for covering any import fees incurred by your package.'
+      storage:
+        question: 'How long can I store an item at Japan Rabbit?'
+        answer: 'We can store items for up to 45 days after they arrive. This means you can wait and consolidate packages to save on international shipping.'
+      shipping:
+        question: 'How much does international shipping cost?'
+        answer: 'We ship internationally using the following shipping methods:'
+        lists:
+          japanPost:
+            title: 'Japan Post'
+            items:
+              ems: 'EMS (Express Mail Service)'
+              smal: 'International ePacket (Smal Packet Airmail)'
+              smalSal: 'Small Packet SAL (Surface Airlift)'
+              parcel: 'Parcel Post Airmail'
+              parcelSal: 'Parcel Post SAL (Surface Airlift)'
+              seamail: 'Seamail (Surface Mail)'
+          fedEx:
+            title: 'FedEx'
+            items:
+              1: 'FedEx International Priority'
+          dhlExpress:
+            title: 'DHL Express'
+            items:
+              1: 'Global Express'
+        note: 'Estimate shipping costs from Japan with our <a target="_blank" href="https://app.japanrabbit.com/shipping-calculator">Shipping Calculator</a>.'
+      what:
+        question: 'What is Japan Rabbit?'
+        answer: "Japan Rabbit is an ecommerce service company that makes it easy-peasy to buy things from Japan that would otherwise be fiendishly difficult. We are a proxy-buying service company, not an online shop. As such, we act on behalf of our members' requests to buy-and-ship specified merchandise from Japan-based online shops, marketplace platforms, auction sites, and retail stores."
+      mission:
+        question: "What is Japan Rabbit's mission?"
+        answer: "Japan Rabbit is on a mission to bring peace of mind to the people and businesses that depend on us to buy from Japan. We handle everything from order management and cross-border payment to purchasing and international shipping—so you don't have to. We are working to elevate ecommerce between Japanese sellers and overseas buyers, a critical service for the future of Japan's global economics."
+      money:
+        question: 'How does Japan Rabbit make money?'
+        answer: 'Japan Rabbit makes money by charging our members fixed and variable fees for every successful purchase. Other sources of income include fees on photo requests, express processing, shipping payments, storage, and other services like splitting packages and discreet packing. This is how Japan Rabbit can continue building new and better products that help members get the most from their money.'
+      who:
+        question: 'Who can use Japan Rabbit?'
+        answer: 'Anyone who is an adult under applicable law (18 years and older in the U.S.) may sign up! Minors may access Japan Rabbit and use its service only under parental or adult supervision.'
+      payments:
+        question: 'What types of payment does Japan Rabbit accept?'
+        answer: 'Japan Rabbit accepts payment by credit card. Supported credit cards include Visa, Mastercard, American Express, JCB, Discover & Diners.'
+
+  blackship:
+    text: 'Package forwarding from Japan.'
+    cta: 'Get an Address in Japan!'
+
+terms:
+  title: 'Terms and Privacy - Japan Rabbit'
+  privacy: 'Privacy Policy'
+  cookie: 'Cookie Policy'
+  tandc: 'Terms and Conditions'
+
+requestAccess:
+  title: 'Request Early Access - Japan Rabbit'
+
+style:
+  title: 'Style - Japan Rabbit'
+  general:
+    brandAndStyleGuide: 'Brand and Style Guide'
+    styleGuideLinkText: 'Japan Rabbit Style Guide'
+    colors: 'Colors'

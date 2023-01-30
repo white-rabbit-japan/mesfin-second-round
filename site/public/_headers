@@ -1,0 +1,20 @@
+# All paths
+/*
+# Block site from being framed with X-Frame-Options and CSP
+# Content-Security-Policy: frame-ancestors 'none'
+X-Frame-Options: DENY
+
+# Prevent browsers from incorrectly detecting non-scripts as scripts
+X-Content-Type-Options: nosniff
+
+# Referrer policy
+Referrer-Policy: strict-origin-when-cross-origin
+
+# Don't load any resource type not explicitly enabled
+# Disable plugins like Flash or Silverlight
+# Allow frames from selected domains
+# Load scripts, stylesheets and fonts from self and selected domains
+# Load inline hashed scripts (fonts loader) ### 'sha256-5OOsaLME8k2gzZwtEIBzAXARYpCErWHiSdULcmnIXq0='
+# Load images from self and Contentful CDN
+# Send reports to report-uri.io
+Content-Security-Policy: default-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; media-src https://js.intercomcdn.com; frame-src 'self' https://app.netlify.com https://www.googletagmanager.com https://*.iubenda.com https://tally.so https://www.google.com https://hire.withgoogle.com https://widget.trustpilot.com; child-src 'self' https://share.intercom.io https://intercom-sheets.com https://www.intercom-reporting.com https://www.youtube.com https://player.vimeo.com https://fast.wistia.net; connect-src 'self' https://bmtkrwbn.api.sanity.io https://*.iubenda.com https://api.segment.io https://cdn.segment.com https://api.amplitude.com https://*.mixpanel.com https://*.inspectlet.com wss://ws.inspectlet.com https://*.fullstory.com https://*.cloudfront.net https://*.trustpilot.com https://www.google-analytics.com https://*.doubleclick.net https://www.facebook.com/tr/ https://api.intercom.io https://api-iam.intercom.io https://api-ping.intercom.io https://nexus-websocket-a.intercom.io https://nexus-websocket-b.intercom.io https://nexus-long-poller-a.intercom.io https://nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io https://uploads.intercomcdn.com https://uploads.intercomusercontent.com; img-src 'self' https://cdn.sanity.io https://*.iubenda.com https://www.googletagmanager.com https://images.ctfassets.net https://*.cloudfront.net https://*.inspectlet.com https://*.google-analytics.com https://*.doubleclick.net https://*.facebook.com https://js.intercomcdn.com https://static.intercomassets.com https://downloads.intercomcdn.com https://uploads.intercomusercontent.com https://gifs.intercomcdn.com https://messenger-apps.intercom.io https://*.intercom-attachments.com data:; script-src 'self' https://www.googleoptimize.com/optimize.js https://netlify-cdp-loader.netlify.app/netlify.js https://bmtkrwbn.api.sanity.io https://www.googletagmanager.com https://polyfill.io https://cdn.polyfill.io https://*.iubenda.com https://cdn.segment.com https://cdn.amplitude.com https://*.fullstory.com/ https://cdn.mxpnl.com/ https://cdn.inspectlet.com/ https://www.google-analytics.com/ https://hire.withgoogle.com https://widget.trustpilot.com https://connect.facebook.net https://app.intercom.io https://widget.intercom.io https://js.intercomcdn.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://*.iubenda.com https://fonts.googleapis.com https://fonts.gstatic.com https://*.typekit.net; font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com https://*.typekit.net https://js.intercomcdn.com; form-action 'self' https://intercom.help https://api-iam.intercom.io; report-uri https://whiterabbitexpress.report-uri.com/r/d/csp/enforce;

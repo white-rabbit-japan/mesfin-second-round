@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-primary underline;
+}
+
+.container {
+  @apply px-36 max-w-full;
+
+  @screen xxxlUp {
+    max-width: theme('screens.xxxlUp.min');
+  }
+
+  @screen mdDown {
+    @apply px-12;
+  }
+
+  @screen sm {
+    @apply px-4;
+  }
+}
+
+.waves-section {
+  @apply relative py-6 my-48 smDown:py-8;
+  background-color: #ededed;
+
+  &::before {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background-image: url(/assets/img/wave-upper.svg);
+    background-repeat: repeat-x;
+  }
+
+  &::after {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 100px;
+    content: '';
+    background-image: url(/assets/img/wave-lower.svg);
+    background-repeat: repeat-x;
+  }
+}

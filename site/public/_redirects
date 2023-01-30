@@ -1,0 +1,8 @@
+# Redirect to in-app URL
+/shipping-calculator https://app.japanrabbit.com/shipping-calculator 301
+/calculator https://app.japanrabbit.com/shipping-calculator 301
+/fees https://app.japanrabbit.com/pricing 301
+/pricing https://app.japanrabbit.com/pricing 301
+
+# wildcard redirects
+/en/* /:splat 301

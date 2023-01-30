@@ -1,0 +1,23 @@
+[build]
+  base = ""
+  publish = "dist"
+  command = "yarn generate"
+
+[build.environment]
+  NODE_VERSION = "16.11.0"
+  NUXT_PUBLIC_SANITY_PROJECT_ID="bmtkrwbn"
+
+[context.production.environment]
+  NUXT_PUBLIC_GTM_ID = "GTM-TGKZ3DH"
+  NUXT_PUBLIC_SEGMENT_KEY = "7IVZiwHbF8bILTOGiSjz5cIXtv5G1wAm"
+  NUXT_PUBLIC_SANITY_DATASET="production"
+
+[context.deploy-preview.environment]
+  NUXT_PUBLIC_GTM_ID = "GTM-WZD9PQS"
+  NUXT_PUBLIC_SEGMENT_KEY = "sT3D1dCzcXuCFM4kbHxEcsVbavHhctGu"
+  NUXT_PUBLIC_SANITY_DATASET="test"
+
+[context.branch-deploy.environment]
+  NUXT_PUBLIC_GTM_ID = "GTM-WZD9PQS"
+  NUXT_PUBLIC_SEGMENT_KEY = "sT3D1dCzcXuCFM4kbHxEcsVbavHhctGu"
+  NUXT_PUBLIC_SANITY_DATASET="test"
